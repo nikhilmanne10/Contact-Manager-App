@@ -1,0 +1,10 @@
+{
+    "restartable": "rs",
+    "ignore": ["node_modules/**"],
+    "env": {
+      "PORT": "5001"
+    },
+    "execMap": {
+      "js": "node --trace-warnings"
+    }
+  }
